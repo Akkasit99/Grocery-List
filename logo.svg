@@ -1,0 +1,43 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Green background circle -->
+  <circle cx="256" cy="256" r="256" fill="#4CAF50"/>
+  
+  <!-- White outer circle -->
+  <circle cx="256" cy="256" r="200" fill="none" stroke="white" stroke-width="8"/>
+  
+  <!-- Clipboard background -->
+  <rect x="180" y="140" width="152" height="200" rx="8" fill="white"/>
+  
+  <!-- Clipboard clip -->
+  <rect x="230" y="120" width="52" height="24" rx="12" fill="white"/>
+  <circle cx="256" cy="132" r="6" fill="#4CAF50"/>
+  
+  <!-- GROCERY LIST text -->
+  <text x="256" y="190" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#4CAF50">GROCERY</text>
+  <text x="256" y="215" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#4CAF50">LIST</text>
+  
+  <!-- Checkmarks and lines -->
+  <g stroke="#4CAF50" stroke-width="3" fill="none">
+    <!-- First item -->
+    <path d="M195 245 L205 255 L220 240" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="235" y1="250" x2="300" y2="250" stroke-linecap="round"/>
+    
+    <!-- Second item -->
+    <path d="M195 275 L205 285 L220 270" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="235" y1="280" x2="300" y2="280" stroke-linecap="round"/>
+    
+    <!-- Third item -->
+    <path d="M195 305 L205 315 L220 300" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="235" y1="310" x2="280" y2="310" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Apple icon -->
+  <g transform="translate(290, 290)">
+    <!-- Apple body -->
+    <path d="M0 20 C0 10, 10 0, 20 0 C30 0, 40 10, 40 20 C40 35, 30 45, 20 50 C10 45, 0 35, 0 20 Z" fill="white"/>
+    <!-- Apple leaf -->
+    <path d="M25 5 C30 0, 35 5, 30 10 C25 8, 25 5, 25 5 Z" fill="#4CAF50"/>
+    <!-- Apple indent -->
+    <path d="M18 2 C20 -2, 22 2, 20 5" fill="none" stroke="#4CAF50" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+</svg>
